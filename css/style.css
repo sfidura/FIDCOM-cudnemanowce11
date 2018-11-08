@@ -1,0 +1,106 @@
+*, html, body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+nav{
+width: 100%;
+height: 15vh;
+background-color: #2b2b2b;
+position: sticky;
+top: 0;
+text-align: center;
+padding-top: 10px;
+color: #fff;
+}
+nav > h1{
+    font-size: 1.9rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+nav > h2{
+    font-size: 0.9rem;
+    color: grey;
+}
+
+nav > ul{
+    width: 100%;
+    text-align: center;
+    padding-top: 5px;
+}
+
+nav > ul > li{
+    display: inline-block;
+    position: relative;
+    width: 20%;
+    height: 50px;
+}
+
+nav > ul > li > a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav > ul > li > a:hover{
+    color: grey;
+}
+
+#start{
+    width: 100%;
+    height: 85vh;
+    background-image: url(../img/cropped-P1070660-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#start > h1{
+    color: #fff;
+    font-size: 5rem;
+    font-weight: 900;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+#start > h2{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 300;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#offer{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    padding-top: 20vh;
+}
+
+#security{
+    width: 100%;
+    height: 100vh;
+    background-color: grey;
+    padding-top: 20vh;
+}
+
+#contact{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    padding-top: 20vh;
+}
